@@ -29,27 +29,27 @@ declare namespace mapkit {
     /**
      * The maximum x-axis value of a rectangle.
      */
-    maxX: number;
+    maxX: function;
     /**
      * The maximum y-axis value of a rectangle.
      */
-    maxY: number;
+    maxY: function;
     /**
      * The mid-point along the x-axis of a rectangle.
      */
-    midX: number;
+    midX: function;
     /**
      * The mid-point along the y-axis of a rectangle.
      */
-    midY: number;
+    midY: function;
     /**
      * The minimum x-axis value of a rectangle.
      */
-    minX: number;
+    minX: function;
     /**
      * The minimum y-axis value of a rectangle.
      */
-    minY: number;
+    minY: function;
     /**
      * Returns a copy of a map rectangle.
      */
